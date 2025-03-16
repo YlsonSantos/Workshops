@@ -51,8 +51,8 @@ Certifique-se de ter as seguintes dependências instaladas:
 1. Clone este repositório para sua máquina local:
 
    ```bash
-   git clone https://github.com/seuusuario/workshopapi.git
-   cd workshopapi
+   git clone https://github.com/YlsonSantos/Projeto_Fast_Solucoes.git
+   cd Projeto_Fast_Solucoes/WorkshopAPI
     ```
 2. Restaure as dependências do projeto:
 
