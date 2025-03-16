@@ -21,7 +21,8 @@ O projeto tem como objetivo desenvolver uma aplicação web para analisar e rast
 #1. Clone o repositório:
 
     ```bash
-    git clone https://github.com/SEU-USUARIO/fast-solucoes.git
+       git clone https://github.com/YlsonSantos/Projeto_Fast_Solucoes.git
+       cd Projeto_Fast_Solucoes/WorkshopFrontend/workshopFrontend
     ```
 
 2. Acesse a pasta do projeto:
