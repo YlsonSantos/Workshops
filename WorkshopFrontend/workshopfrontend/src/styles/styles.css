@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  background: linear-gradient(to bottom, #297bd8, #5900ff);
+  font-family: 'Montserrat', sans-serif; 
+  color: #333;  
+  margin: 0;
+  padding: 0;
+  font-size: 1rem; 
+  padding-top: 5rem; 
+}
+/* ----------------------------------------------------------------- Pagina inicial -------------------------------------------------------------------*/
+/* header */
+header {
+  text-align: center;
+  padding: 0 0; 
+  color: white;
+  font-size: 2.5rem; 
+  font-weight: bold;
+  margin-top: -1.25rem;
+  margin-bottom: 0rem; 
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+
+/* Colaboradores */
+.collaborators-box {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  margin: 0.5rem auto; 
+  padding: 3rem; 
+  width: 80%; 
+  max-width: 1500px; 
+  border-radius: 0.625rem; 
+  box-shadow: 0 0.125rem 1rem rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Título da seção */
+.collaborators-box h2 {
+  margin-top: 0rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid black;
+}
+
+/* Layout da caixa de colaboradores */
+.collaborators {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+  padding: 1.5rem 0;
+  width: 100%; 
+  max-width: 1500px; 
+  box-sizing: border-box; 
+}
+
+/* Divs de colaboradores */
+.collaborator {
+  border: 0.1rem solid black;
+  text-align: center;
+  padding: 2.5rem;
+  width: 18%;
+  min-width: 200px;
+  box-sizing: border-box;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 0.625rem;
+  background-color: rgb(241, 241, 241);
+}
+
+.collaborator:hover {
+  transform: scale(1.05); 
+}
+
+.collaborator-image img {
+  width: 5rem; 
+  height: 5rem; 
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.625rem; 
+}
+
+.collaborator-name {
+  font-size: 1rem;
+  font-weight: bold;
+}
+/* Linha de divisão */
+.divider {
+  height: 0.0625rem; 
+  background-color: #ddd;
+  margin: 1.875rem auto; 
+  width: 80%;
+}
+/* Navbar */
+.navbar {
+  background-color: rgb(30, 32, 156);
+  padding: .15rem 1.5rem; 
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+/* Estilo links na navbar (direita) */
+.navbar-links {
+  display: flex;
+  gap: 2rem; 
+  margin: 0; 
+}
+
+.navbar-links li {
+  list-style-type: none;
+  font-size: 1.25rem; 
+  margin-right: 1rem;
+  display: inline;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+  color: black; /* Cor ao passar o mouse */
+}
+
+/* --------------------------------------------------------------------- Fim da primeira pagina ----------------------------------------------------------*/
+
+/* --------------------------------------------------------------------- Segunda pagina -------------------------------------------------------------------*/
+
+/* Div geral de Workshops disponiveis */
+.collaborators-box2 {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  margin: 0.5rem auto;
+  padding: 3rem 3rem 0 3rem;
+  width: 80%;
+  border-radius: 0.625rem;
+  box-shadow: 0 0.125rem 1rem rgba(0, 0, 0, 0.6);
+  flex-wrap: wrap;
+}
+
+.collaborators-box2 h2 {
+  margin-top: 0rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Div de Workshops disponiveis */
+.collaborators2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.5rem 0;
+}
+
+/* Tela da frente dos Workshops */
+.collaborator2 {
+  border: 0.1rem solid black;
+  text-align: center;
+  padding: 2.5rem;
+  width: 730px;
+  height: 300px; 
+  box-sizing: border-box;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 0.625rem;
+  background-color: rgb(241, 241, 241);
+  margin-bottom: 1rem;
+  cursor: pointer;
+  perspective: 1000px;
+  position: relative;
+  overflow: hidden; 
+}
+
+/*Frente do card */
+.collaborator2 .front {
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.625rem;
+}
+
+/*Atras do card */
+.collaborator2 .back {
+  background-color:  rgb(241, 241, 241);
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  padding: 1rem;
+  height: 100%; 
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* Efeito de girar o card */
+.collaborator2 .front, .collaborator2 .back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* rotação */
+.collaborator2.flipped .front {
+  transform: rotateY(180deg);
+}
+
+/* rotação */
+.collaborator2.flipped .back {
+  transform: rotateY(0);
+  background-color: rgba(0, 255, 255, 0.123);
+}
+
+.collaborator-name2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.collaborator2 .front p, .collaborator2 .back p {
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+.collaborator2 .image {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0.625rem;
+}
+
+.collaborator2 .back h3, .collaborator2 .back p {
+  margin-left: 1rem; 
+  margin: auto;
+}
+.collaborator2 .back h3{
+  padding: 1rem;
+  border-bottom: 2px solid black;
+}
+
+.collaborator2 .back a {
+  margin-left: 1rem;
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.collaborator2 .back a:hover {
+  text-decoration: underline;
+}
+
+/*Bloco do cursos na vertical */
+.collaborator3 {
+  background-color: white;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 2rem;
+  width: 300px;
+  height: auto;
+  box-sizing: border-box;
+  border-radius: 0.625rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.collaborator3 h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.collaborator3 p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Contêiner que agrupa os retângulos */
+.retangulos-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  margin: 3rem 0;
+  padding: 0 1rem;
+  flex-wrap: wrap;
+}
+
+/* Cursos na vertical */
+.retangulo {
+  width: 430px; /* Defina uma largura fixa para os cards */
+  height: auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 1.5rem;
+  border-radius: 0.625rem;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.retangulo:hover {
+  transform: scale(1.05) translateY(-10px);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.retangulo .imagem-workshop {
+  background-size: contain;
+  background-position: center;
+  height: 150px;
+  border-radius: 0.625rem;
+  margin-bottom: 1rem;
+  background-repeat: no-repeat;
+}
+
+.retangulo h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.retangulo p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.retangulo hr {
+  margin: 1rem 0;
+  border-top: 1px solid #ddd;
+}
+
+/*Bloco dos graficos */
+.collaborator4 {
+  background-color: white;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 2rem;
+  width: 80%; 
+  max-width: 1200px; 
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.625rem;
+  box-sizing: border-box;
+}
+
+.collaborator4 h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.collaborator4 p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Container dos gráficos */
+.grafico-container {
+  display: flex;
+  justify-content: center; 
+  gap: 1rem; 
+  margin-top: 20px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+/* Estilo fixo dos gráficos */
+.grafico {
+  width: 25rem; /* Tamanho fixo */
+  height: 25rem; /* Tamanho fixo */
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  box-sizing: border-box;
+}
+
+.grafico-pizza {
+  width: 18rem; 
+  height: 18rem; 
+}
+
+
+.pie-chart-legends {
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+  margin-top: 1rem; 
+  flex-wrap: wrap; 
+}
+
+.pie-chart-legends div {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.pie-chart-legends div:last-child {
+  margin-right: 0;
+}
+
+.pie-chart-legends span {
+  margin-left: 0.5rem; 
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Footer */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2rem; 
+}
+
+.footer p {
+  margin: 0;
+}

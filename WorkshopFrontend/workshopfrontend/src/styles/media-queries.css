@@ -1,0 +1,61 @@
+/* Primeira tela */
+@media screen and (max-width: 1024px) {
+    .collaborator {
+      width: 45%; 
+      min-width: unset; 
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .collaborator {
+      width: 45%; 
+      min-width: unset; 
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .collaborator {
+      width: 90%; 
+      min-width: unset; /
+    }
+  }
+  
+  /* Responsividade para Workshops disponiveis */
+  @media screen and (max-width: 768px) {
+    .collaborator2 {
+      width: 48%; 
+      padding: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .collaborator2 {
+      width: 100%; 
+    }
+  }
+  
+  /* Responsividade os cards verticais*/
+@media screen and (max-width: 991px) and (min-width: 480px) {
+    .retangulo {
+      width: 45%; 
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .retangulo {
+      width: 90%;
+    }
+  }
+  
+  /* repsonsividade para os graficos */
+  @media (max-width: 768px) {
+    .grafico-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .grafico {
+      width: 25rem; 
+      height: 25rem;
+    }
+  }
