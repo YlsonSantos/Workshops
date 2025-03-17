@@ -16,6 +16,10 @@ O projeto tem como objetivo desenvolver uma aplicação web para analisar e rast
 - **Chart.js**: Biblioteca para a criação de gráficos interativos.
 - **CSS/SCSS**: Estilos para a interface e layout.
 
+### 🔹 Pré-requisitos
+1. **Node.js** 
+2. **NPM** 
+
 ## Como Rodar o Projeto
 
 #1. Clone o repositório:
