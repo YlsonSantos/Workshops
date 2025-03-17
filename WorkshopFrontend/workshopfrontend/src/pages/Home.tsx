@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <div>
       <header>
-        <h1>Workshop Fast Solutions</h1>
+        <h1>Workshop Fast Soluções</h1>
       </header>
       
       <div className="collaborators-box">
