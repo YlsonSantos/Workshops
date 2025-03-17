@@ -9,7 +9,7 @@ O projeto tem como objetivo desenvolver uma aplicação web para analisar e rast
   - **Gráfico de barras**: Exibe a quantidade de workshops que cada colaborador participou.
   - **Gráfico de pizza**: Exibe a distribuição de colaboradores por workshop.
 
-## Tecnologias Utilizadas
+##  🛠 Tecnologias Utilizadas
 
 - **React**: Biblioteca para construção da interface.
 - **TypeScript**: Linguagem para desenvolvimento, proporcionando tipagem estática.
@@ -20,7 +20,7 @@ O projeto tem como objetivo desenvolver uma aplicação web para analisar e rast
 1. **Node.js** 
 2. **NPM** 
 
-## Como Rodar o Projeto
+## 🚀 Como Rodar o Projeto
 
 #1. Clone o repositório:
 
