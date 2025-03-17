@@ -17,8 +17,8 @@ O projeto tem como objetivo desenvolver uma aplicação web para analisar e rast
 - **CSS/SCSS**: Estilos para a interface e layout.
 
 ### 🔹 Pré-requisitos
-1. **Node.js** 
-2. **NPM** 
+- **Node.js** 
+- **NPM** 
 
 ## 🚀 Como Rodar o Projeto
 
