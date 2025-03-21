@@ -5579,11 +5579,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ylson\\Desktop\\Projeto Fast\\WorkshopAPI\\WorkshopAPI.csproj",
+      "projectUniqueName": "C:\\Users\\ylson\\Desktop\\Projeto Fast Soluções\\WorkshopAPI\\WorkshopAPI.csproj",
       "projectName": "WorkshopAPI",
-      "projectPath": "C:\\Users\\ylson\\Desktop\\Projeto Fast\\WorkshopAPI\\WorkshopAPI.csproj",
+      "projectPath": "C:\\Users\\ylson\\Desktop\\Projeto Fast Soluções\\WorkshopAPI\\WorkshopAPI.csproj",
       "packagesPath": "C:\\Users\\ylson\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ylson\\Desktop\\Projeto Fast\\WorkshopAPI\\obj\\",
+      "outputPath": "C:\\Users\\ylson\\Desktop\\Projeto Fast Soluções\\WorkshopAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ylson\\AppData\\Roaming\\NuGet\\NuGet.Config"
