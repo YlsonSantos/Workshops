@@ -1,6 +1,6 @@
 # WorkshopAPI
 
-WorkshopAPI é uma API para gerenciamento de colaboradores e oficinas, desenvolvida como parte do projeto da Fast Soluções. Ela oferece operações para criar, ler, atualizar e excluir informações de colaboradores e oficinas, utilizando um banco de dados **SQLite** e **Swagger** para documentação da API.
+WorkshopAPI é uma API para gerenciamento de colaboradores e oficinas. Ela oferece operações para criar, ler, atualizar e excluir informações de colaboradores e oficinas, utilizando um banco de dados **SQLite** e **Swagger** para documentação da API.
 
 ## 🛠 Tecnologias Utilizadas
 
