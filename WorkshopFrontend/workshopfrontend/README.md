@@ -1,6 +1,6 @@
 # Fast Soluções - Análise e Rastreio de Participação em Workshops
 
-O projeto tem como objetivo desenvolver uma aplicação web para analisar e rastrear a participação dos colaboradores da **FAST Soluções** nos workshops. A aplicação foi criada utilizando **React**, **TypeScript** e **gráficos interativos** para facilitar o acompanhamento das atividades dos colaboradores.
+O projeto tem como objetivo desenvolver uma aplicação web para analisar e rastrear a participação dos colaboradores nos workshops. A aplicação foi criada utilizando **React**, **TypeScript** e **gráficos interativos** para facilitar o acompanhamento das atividades dos colaboradores.
 
 ## Requisitos Funcionais
 
@@ -25,14 +25,14 @@ O projeto tem como objetivo desenvolver uma aplicação web para analisar e rast
 #1. Clone o repositório:
 
     ```bash
-       git clone https://github.com/YlsonSantos/Projeto_Fast_Solucoes.git
-       cd Projeto_Fast_Solucoes/WorkshopFrontend/workshopFrontend
+       git clone https://github.com/YlsonSantos/Workshops.git
+       cd Workshops/WorkshopFrontend/workshopFrontend
     ```
 
 2. Acesse a pasta do projeto:
 
     ```bash
-    cd fast-solucoes
+    cd Workshops
     ```
 
 3. Instale as dependências necessárias:
