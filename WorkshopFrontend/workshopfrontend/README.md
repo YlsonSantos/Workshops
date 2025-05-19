@@ -1,4 +1,4 @@
-# Fast Soluções - Análise e Rastreio de Participação em Workshops
+# Análise e Rastreio de Participação em Workshops
 
 O projeto tem como objetivo desenvolver uma aplicação web para analisar e rastrear a participação dos colaboradores nos workshops. A aplicação foi criada utilizando **React**, **TypeScript** e **gráficos interativos** para facilitar o acompanhamento das atividades dos colaboradores.
 
